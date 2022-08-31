@@ -9,17 +9,15 @@ solidity_node = 'https://api.trongrid.io'
 event_server = 'https://api.trongrid.io'
 
 # Define where to send
-mainAccount = "TKSXDA8HfE9E1y39RczVQ1ZascUEtaSToF"
+mainAccount = "TAqAXEzzHSQqZtK9wtzA5PYNzdHqbhC8sS"
 # Define where to check
 accounts = dict([
-    ("YOURADDRESSHERE","YOURPRIVATEKEYHERE"),
-    ("YOURADDRESSHERE","YOURPRIVATEKEYHERE"),
-    ("YOURADDRESSHERE","YOURPRIVATEKEYHERE"),
-    ("YOURADDRESSHERE","YOURPRIVATEKEYHERE"),
+    ("TLgjnX4ZiyeB24aSu43pLCVwHJb8kDR9XD","57192c2bd3ab8056ea83248f9e0ad478bd91296d2a8f6597547e516b3d8a64de"),
+    
 ])
 # Define minmum amount to transfer
 min_withdraw = 1
-scanMin = 60
+scanMin = 0.1
 
 
 tron = Tron(full_node=full_node,
